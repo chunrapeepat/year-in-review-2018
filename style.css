@@ -49,3 +49,10 @@ amp-story-grid-layer.center-text {
     position: absolute;
     top: 40%;
 }
+
+.content {
+    position: absolute;
+    bottom: 0;
+    padding: 30px 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 40%, transparent);
+}
