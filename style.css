@@ -56,3 +56,18 @@ amp-story-grid-layer.center-text {
     padding: 30px 20px;
     background: linear-gradient(to top, rgba(0,0,0,0.8) 40%, transparent);
 }
+.center {
+    position: absolute;
+    font-size: 25px;
+
+    transform: rotate(-10deg) translateY(-50%);
+}
+
+.effect-banner {
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 7px;
+    background: linear-gradient(to right, #009688, #004D40);
+}
