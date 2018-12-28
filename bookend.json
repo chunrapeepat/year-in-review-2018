@@ -1,0 +1,41 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "facebook",
+    "twitter",
+    "email"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "About me: Hello, I'm Chun Rapeepat, 19 years old full-stack developer from Thailand who enjoys building software for solving problems & expanding the circle with communities."
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "Visit Chun Rapeepat Website",
+          "url": "https://thechun.xyz"
+        }
+      ]
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "Visit Chun Rapeepat on Facebook",
+          "url": "https://facebook.com/chun42"
+        }
+      ]
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "Visit Chun Rapeepat on Github",
+          "url": "https://github.com/chunza2542"
+        }
+      ]
+    }
+  ]
+}
