@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What Will Happen To You In 2019? | Chun Rapeepat</title>
+</head>
+<body>
+    <h1>What Will Happen To You In 2019?</h1><br>
+    <button onclick="random()" style="font-size: 30px;">LET'S SEE</button> 
+
+    <br><br>
+
+    <hr>
+    <br>
+
+    <div>
+        <h1>The word that describe you in 2019: <span id="word"></span></h1>
+        <h2>What the fuck is that means: <span id="desc"></span></h2>
+    </div>
+
+    <br>
+    <hr>
+    <a href="">Ref: http://www.unigang.com/Article/3185</a>
+
+    <script src="words.js"></script>
+    <script>
+        let interval;
+
+        function random() {
+            interval = setInterval(function() {
+                let word = words[Math.floor(Math.random()*words.length)];
+                document.getElementById("word").innerHTML = word.word
+                document.getElementById("desc").innerHTML = word.meaning
+            }, 100)
+
+            setTimeout(() => {
+                clearInterval(interval)
+            }, 5000)
+        }
+
+    </script>
+</body>
+</html>
